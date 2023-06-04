@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Bạ Điện Thoại"
+        android:gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyc"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"/>
+    <Button
+        android:id="@+id/dong_bo_db"
+        android:layout_below="@+id/recyc"
+        android:text="Đồng Bộ Danh Bạ"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

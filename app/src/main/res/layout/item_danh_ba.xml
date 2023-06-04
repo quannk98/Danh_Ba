@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:id="@+id/item_danhba"
+    android:background="@drawable/custome_item"
+    android:backgroundTint="@android:color/holo_blue_light"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/item_name"
+        android:text="Tên trong danh bạ"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/item_number"
+        android:layout_below="@+id/item_name"
+        android:text="0349929671"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/item_message"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/baseline_message_24"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+
+
+</RelativeLayout>

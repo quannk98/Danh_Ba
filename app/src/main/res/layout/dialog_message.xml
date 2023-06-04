@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/custome_item"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/ed_name_message"
+        android:hint="tên trong dang bạ"
+        android:paddingLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@drawable/custome_listview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+    <EditText
+        android:id="@+id/ed_content_message"
+        android:hint="Nội Dung Tin Nhắn"
+        android:layout_below="@+id/ed_name_message"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:paddingTop="5dp"
+        android:paddingLeft="10dp"
+        android:gravity="top"
+        android:background="@drawable/custome_listview"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+    <Button
+        android:id="@+id/btn_guitn"
+        android:layout_below="@+id/ed_content_message"
+        android:layout_marginTop="10dp"
+        android:text="Gửi Tin Nhắn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+</RelativeLayout>
